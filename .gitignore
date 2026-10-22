@@ -1,0 +1,15 @@
+# Vercel
+.vercel/
+.env*
+
+# Dependências e ferramentas locais
+node_modules/
+package-lock.json
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs e ficheiros temporários
+*.log
+*.tmp
