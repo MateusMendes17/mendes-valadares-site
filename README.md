@@ -4,6 +4,8 @@ Site institucional estático para uma sociedade de advogados em Lisboa. O objeti
 
 > **Pré-visualização publicada:** [mendes-valadares.vercel.app](https://mendes-valadares.vercel.app)
 >
+> **Repositório:** [github.com/MateusMendes17/mendes-valadares-site](https://github.com/MateusMendes17/mendes-valadares-site) (privado)
+>
 > Esta publicação é uma pré-visualização técnica. As imagens continuam provisórias e as páginas legais mantêm marcadores por preencher e notas de revisão. Não deve ser tratada como o lançamento público definitivo do escritório.
 
 - HTML5 semântico, CSS3 e JavaScript modular (ES modules), sem frameworks nem processo de build.
@@ -255,7 +257,7 @@ Para voltar a publicar depois de alterações locais:
 vercel --prod
 ```
 
-Se o projeto for ligado a um repositório GitHub na Vercel, os deployments passam a ser criados a cada `push` para o ramo de produção. Nesse caso, confirmar que o domínio de produção e as variáveis de ambiente estão configurados no painel da Vercel.
+O projeto está ligado ao repositório `mendes-valadares-site`; cada `push` para `main` cria um novo deployment de produção. Confirmar que o domínio de produção e as variáveis de ambiente estão configurados no painel da Vercel.
 
 ## 8. Acessibilidade e qualidade
 
